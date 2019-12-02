@@ -10,18 +10,18 @@ Reference: [thunlp/NRLPapers](https://github.com/thunlp/NRLPapers)
 
 - [2014/SIGKDD] DeepWalk
     - [paper](https://dl.acm.org/citation.cfm?id=2623732)
-    - [note](./DeepWalk)
-    - [code](./DeepWalk/code/)
+    - [note](http://dreamhomes.top/post/Xl3LPIT5p/)
+    - [code](./DeepWalk)
 - [2015/WWW] LINE
     - [paper](https://arxiv.org/abs/1503.03578)
-    - [note](./LINE)
-    - [code]()
+    - [note]()
+    - [code](./Line)
 - [2015/CIKM] GraRep
     - [paper](https://dl.acm.org/citation.cfm?id=2806512)
-    - [note](./GraRep)
-    - [code]()
+    - [note]()
+    - [code](./GraRep)
 - [2016/SIGKDD] Node2vec
     - [paper](https://cs.stanford.edu/~jure/pubs/node2vec-kdd16.pdf)
-    - [note](./Node2vec)
-    - [code]()
+    - [note]()
+    - [code](./Node2vec)
 
