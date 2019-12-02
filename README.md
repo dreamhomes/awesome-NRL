@@ -14,14 +14,14 @@ Reference: [thunlp/NRLPapers](https://github.com/thunlp/NRLPapers)
     - [code]()
 - [2015/WWW] LINE
     - [paper](https://arxiv.org/abs/1503.03578)
-    - [note]()
+    - [note](./LINE)
     - [code]()
 - [2015/CIKM] GraRep
     - [paper](https://dl.acm.org/citation.cfm?id=2806512)
-    - [note]()
+    - [note](./GraRep)
     - [code]()
 - [2016/SIGKDD] Node2vec
     - [paper](https://cs.stanford.edu/~jure/pubs/node2vec-kdd16.pdf)
-    - [note]()
+    - [note](./Node2vec)
     - [code]()
 
