@@ -10,7 +10,7 @@ Reference: [thunlp/NRLPapers](https://github.com/thunlp/NRLPapers)
 
 - [2014/SIGKDD] DeepWalk
     - [paper](https://dl.acm.org/citation.cfm?id=2623732)
-    - [note]()
+    - [note](./DeepWalk)
     - [code]()
 - [2015/WWW] LINE
     - [paper](https://arxiv.org/abs/1503.03578)
