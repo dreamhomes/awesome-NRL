@@ -24,4 +24,6 @@ Reference: [thunlp/NRLPapers](https://github.com/thunlp/NRLPapers)
     - [paper](https://cs.stanford.edu/~jure/pubs/node2vec-kdd16.pdf)
     - [note]()
     - [code](./Node2vec)
+- [2016/SIGKDD] SDNE
+    - [paper](https://www.kdd.org/kdd2016/papers/files/rfp0191-wangAemb.pdf)
 

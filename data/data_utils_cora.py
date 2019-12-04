@@ -5,7 +5,7 @@
  
 @author: dreamhomes
  
-@description：
+@description：dataset preprocessing
 '''
 
 import scipy.sparse as sp
@@ -63,6 +63,6 @@ def get_splits(y):
 
 
 if __name__ == '__main__':
-    # usage
+    # cora 2708 nodes, 5429 edges, 1433 features
     X, A, y = load_data(dataset='cora')
     y_train, y_val, y_test, idx_train, idx_val, idx_test = get_splits(y)
