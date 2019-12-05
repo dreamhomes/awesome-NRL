@@ -32,7 +32,7 @@ Note:
 ...
 ```
 
-### Reference
+### Citation
 
 ```
 @inproceedings{Perozzi:2014:DOL:2623330.2623732,
