@@ -16,13 +16,9 @@ Reference: [thunlp/NRLPapers](https://github.com/thunlp/NRLPapers)
     - [paper](https://arxiv.org/abs/1503.03578)
     - [note](http://dreamhomes.top/post/930zCOXsH/)
     - [code](./LINE)
-- [2015/CIKM] GraRep
-    - [paper](https://dl.acm.org/citation.cfm?id=2806512)
-    - [note]()
-    - [code](./GraRep)
 - [2016/SIGKDD] Node2vec
     - [paper](https://cs.stanford.edu/~jure/pubs/node2vec-kdd16.pdf)
-    - [note]()
+    - [note](http://dreamhomes.top/post/UusZ9HXOR/)
     - [code](./Node2vec)
 - [2016/SIGKDD] SDNE
     - [paper](https://www.kdd.org/kdd2016/papers/files/rfp0191-wangAemb.pdf)
