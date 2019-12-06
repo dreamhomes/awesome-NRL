@@ -14,7 +14,7 @@ Reference: [thunlp/NRLPapers](https://github.com/thunlp/NRLPapers)
     - [code](./DeepWalk)
 - [2015/WWW] LINE
     - [paper](https://arxiv.org/abs/1503.03578)
-    - [note]()
+    - [note](http://dreamhomes.top/post/930zCOXsH/)
     - [code](./Line)
 - [2015/CIKM] GraRep
     - [paper](https://dl.acm.org/citation.cfm?id=2806512)
