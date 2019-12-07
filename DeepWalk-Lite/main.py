@@ -66,8 +66,7 @@ def deepwalk(args):
             model = Word2Vec(walks, size=args.dimension, window=5,
                              min_count=0, sg=1, hs=1, workers=cpu_count())
         else:
-            raise Exception(
-                "Unknown model: '%s'.  Valid models: 'word2vec', 'skipgram'" % args.model)
+            raise Exception("Unknown model: '%s'.  Valid models: 'word2vec', 'skipgram'" % args.model)
 
     # Save to output file
     print("----- Total time {:.2f}s -----".format(time.time() - start_time))
