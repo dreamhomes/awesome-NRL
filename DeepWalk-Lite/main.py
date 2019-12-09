@@ -66,7 +66,8 @@ def deepwalk(args):
             model = Word2Vec(walks, size=args.dimension, window=5,
                              min_count=0, sg=1, hs=1, workers=cpu_count())
         else:
-            raise Exception("Unknown model: '%s'.  Valid models: 'word2vec', 'skipgram'" % args.model)
+            raise Exception(
+                "Unknown model: '%s'.  Valid models: 'word2vec', 'skipgram'" % args.model)
 
     # Save to output file
     print("----- Total time {:.2f}s -----".format(time.time() - start_time))
@@ -80,9 +81,12 @@ def main():
     parser.add_argument('--output', required=True)
     parser.add_argument('--num-walks', default=20, type=int)
     parser.add_argument('--walk-length', default=20, type=int)
-    parser.add_argument('--dimension', type=int, default=128, help='Embeddings dimension')
-    parser.add_argument('--iter', default=1, type=int, help='Number of epochs in SGD')
-    parser.add_argument('--model', default='word2vec',  help='Type of model to apply on walks (word2vec/skipgram)')
+    parser.add_argument('--dimension', type=int,
+                        default=128, help='Embeddings dimension')
+    parser.add_argument('--iter', default=1, type=int,
+                        help='Number of epochs in SGD')
+    parser.add_argument('--model', default='word2vec',
+                        help='Type of model to apply on walks (word2vec/skipgram)')
 
     args = parser.parse_args()
 
