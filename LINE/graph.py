@@ -15,7 +15,7 @@ class Graph:
     """ graph in LINE."""
 
     def __init__(self, edgelist_file):
-        self.g = nx.read_edgelist(edgelist_file)
+        self.g = nx.read_weighted_edgelist(edgelist_file)
         self.num_of_nodes = self.g.number_of_nodes()
         self.num_of_edges = self.g.number_of_edges()
         self.edges_raw = self.g.edges(data=True)
