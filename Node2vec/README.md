@@ -1,9 +1,16 @@
 # Node2vec
+Simple implementation of Node2vec in "node2vec: Scalable Feature Learning for Networks".
 
-## TL; DR
 
-## Model/Algorithm
+## Usage
 
-## Experiments
+```bash
+python main.py --input cora/cora.edgelist --output cora/cora.embeddings --num-walks 10 --walk-length 40
+```
 
-## Thoughts
+## Citation
+```
+Grover, A. and Leskovec, J., 2016, August. node2vec: Scalable feature learning for networks. In Proceedings of the 22nd ACM SIGKDD international conference on Knowledge discovery and data mining (pp. 855-864). ACM.
+
+```
+
